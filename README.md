@@ -8,6 +8,7 @@ Here's how you can use this script:
 john
 jane
 jimmy
+```
 
 <li>Save the create_users.sh script to a file.</li>
 <li>Open a terminal and navigate to the directory where the files are located.</li>
