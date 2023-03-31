@@ -8,7 +8,6 @@ Here's how you can use this script:
 <li>Make the create_users.sh script executable by running the command:</li>
 <li>Run the script with the usernames.txt file as an argument by running the command:</li>
 </ul>
-<p>The script will create a new user account for each line in the file usernames.txt.
-Note that the script assumes that the usernames in the file do not contain any spaces or special characters.
-If your usernames do contain spaces or special characters, you may need to modify the script to handle them correctly.
+<p>The script will read the list of usernames from the usernames.txt
+ file and create a user account for each one.
 <p>
