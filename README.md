@@ -3,7 +3,6 @@ Here's how you can use this script:
 
 <ul>
 <li>Create a file called usernames.txt with a list of usernames you want to create for example:</li>
-```
 john
 jane
 jimmy
