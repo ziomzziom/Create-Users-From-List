@@ -6,9 +6,9 @@ Here's how you can use this script:
 </ul>
 
 ```
-john
-jane
-jimmy
+j0hn123
+midnight_rider
+bLuEskY
 ```
 
 <ul>
