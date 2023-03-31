@@ -15,6 +15,7 @@ while read -r line; do
   username="$line"
   echo "Creating user $username"
   useradd $username
+  echo "$username:$username" | chpasswd
 done < $filename
 
 echo "User creation complete."
