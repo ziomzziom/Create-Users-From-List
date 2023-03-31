@@ -12,7 +12,12 @@ bLuEskY
 ```
 
 <ul>
-<li>Save the create_users.sh script to a file.</li>
+<li>Save the create_users.sh script to a file or clone the repository by using the command:</li>
+
+```
+git clone https://github.com/ziomzziom/Create-Users-From-List
+```
+
 <li>Open a terminal and navigate to the directory where the files are located.</li>
 <li>Make the create_users.sh script executable by running the command:</li>
 </ul>
