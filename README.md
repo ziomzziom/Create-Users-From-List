@@ -30,6 +30,10 @@ chmod +x create_users.sh
 ```
 
 
-<p>This script reads the list of usernames from the file provided as an argument, 
-creates a user account for each one using the useradd command, and sets the password for each user to the same value as their username using the chpasswd command..
 <p>
+This script reads the list of usernames from the file provided as an argument, 
+creates a user account for each one using the useradd command.
+</p>
+
+<h3>WARNING!</h3>
+<h4>Script sets the password for each user to the same value as their username using the chpasswd command.</h4>
