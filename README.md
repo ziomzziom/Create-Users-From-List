@@ -37,4 +37,5 @@ creates a user account for each one using the useradd command.
 
 <h3>WARNING!</h3>
 <h4>Script sets the password for each user to the same value as their username using the chpasswd command.
-Please change the password manually.</h4>
+</h4>
+<h3>Please change the password manually.</h3>
