@@ -1,4 +1,4 @@
-# Create-Users-From-List
+# Create Users From List
 Here's how you can use this script:
 
 <ul>
