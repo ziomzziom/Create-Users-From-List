@@ -13,9 +13,23 @@ filename=$1
 # Create a user for each line in the file
 while read -r line; do
   username="$line"
-  echo "Creating user $username"
-  useradd $username
-  echo "$username:$username" | chpasswd
+  
+  # Prompt the user for password choice for each user
+  echo "Do you want to set the default password same as the username for user $username? (y/n)"
+  read -r choice
+
+  if [ "$choice" = "y" ]; then
+    password="$username"
+  else
+    password=""
+  fi
+  
+  echo "Creating user $username with password $password"
+  adduser $username --disabled-password --gecos ""  # create user with no comments
+  
+  if [ "$password" != "" ]; then
+    echo "$username:$password" | chpasswd
+  fi
 done < $filename
 
 echo "User creation complete."
